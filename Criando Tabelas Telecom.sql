@@ -17,7 +17,7 @@ create table Equipamento(
 	DataAquisicao date,
 	Site int,
 	Numero_Serie int,
-	Tipo varchar(30)
+	Tipo varchar(30),
 	primary key(EquipID, Shelf),
 	foreign key(Site) references Site(SiteID)
 );
